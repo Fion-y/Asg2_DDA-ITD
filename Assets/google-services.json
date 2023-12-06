@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "599441639791",
+    "firebase_url": "https://dda-project-test-1-9b40d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dda-project-test-1-9b40d",
+    "storage_bucket": "dda-project-test-1-9b40d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599441639791:android:f2814e4f5ef7fb3658409a",
+        "android_client_info": {
+          "package_name": "com.google.firebase.fion.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrU0Jk5BxMoLjNzo762cigMyO1U8PZ3c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
