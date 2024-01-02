@@ -55,6 +55,7 @@ public class AuthManager : MonoBehaviour
             if(task.IsFaulted || task.IsCanceled)
             {
                 ChangeErrorMsg();
+                btnProceed.gameObject.SetActive(false);
                 Debug.LogError("Sorry, there was an error creating your new account, ERROR: " + task.Exception);
                 // error msg
                 return;//exit from the attempt
@@ -62,7 +63,7 @@ public class AuthManager : MonoBehaviour
             else if (task.IsCompleted)
             {
             Firebase.Auth.AuthResult newPlayer = task.Result;
-            Debug.LogFormat("Welcome to Piak! Piak! {0}", newPlayer.User.Email);
+            Debug.LogFormat("Welcome to Piak! Piak! {0}", newPlayer.User.Email);    
                 errorMsgField.text = textToDisplay2;
                 btnProceed.gameObject.SetActive(true);
                 //do anything you want after player creation eg. create new player
