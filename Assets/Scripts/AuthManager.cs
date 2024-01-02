@@ -66,6 +66,7 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("Welcome to Piak! Piak! {0}", newPlayer.User.Email);    
                 errorMsgField.text = textToDisplay2;
                 btnProceed.gameObject.SetActive(true);
+                btnSignUp.interactable = false;
                 //do anything you want after player creation eg. create new player
             }
         });
