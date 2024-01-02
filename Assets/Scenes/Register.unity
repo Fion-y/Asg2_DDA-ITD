@@ -4342,7 +4342,7 @@ GameObject:
   - component: {fileID: 2131375243}
   - component: {fileID: 2131375242}
   m_Layer: 5
-  m_Name: NextScene
+  m_Name: GoToSignup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
