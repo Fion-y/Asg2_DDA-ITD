@@ -18,7 +18,8 @@ public class AuthManager : MonoBehaviour
 
     [SerializeField] private TMP_InputField inputPassword;
     
-    [SerializeField] private Button btnSignUp; 
+    [SerializeField] private Button btnSignUp;
+    [SerializeField] private Button btnProceed;
 
     [SerializeField] private TMP_Text errorMsgField;
     [SerializeField] private string textToDisplay;
@@ -63,6 +64,7 @@ public class AuthManager : MonoBehaviour
             Firebase.Auth.AuthResult newPlayer = task.Result;
             Debug.LogFormat("Welcome to Piak! Piak! {0}", newPlayer.User.Email);
                 errorMsgField.text = textToDisplay2;
+                btnProceed.gameObject.SetActive(true);
                 //do anything you want after player creation eg. create new player
             }
         });
