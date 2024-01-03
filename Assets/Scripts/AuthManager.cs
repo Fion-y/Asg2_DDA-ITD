@@ -63,7 +63,7 @@ public class AuthManager : MonoBehaviour
             else if (task.IsCompleted)
             {
             Firebase.Auth.AuthResult newPlayer = task.Result;
-            Debug.LogFormat("Welcome to Piak! Piak! {0}", newPlayer.User.Email);    
+            Debug.LogFormat("Welcome to Down In Singapore! {0}", newPlayer.User.Email);    
                 errorMsgField.text = textToDisplay2;
                 btnProceed.gameObject.SetActive(true);
                 btnSignUp.interactable = false;

@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FionStartMenu.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5c050befcfcd6f34ab1524b4a4c8c5f1
+  - enabled: 1
+    path: Assets/Scenes/Flyer.unity
+    guid: 77d7d9c9f71d8c14db24bddb39ded595
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 764028224938d274bac141e594627eb9,
       type: 2}
